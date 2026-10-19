@@ -1,0 +1,19 @@
+# Environment files and secrets
+.env
+.env.*
+!**/.env.example`r`n!**/.env*.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies and generated output
+**/node_modules/
+**/.next/
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+**/.vercel/
+**/build-error.txt
+
+
