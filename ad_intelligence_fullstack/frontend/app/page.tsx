@@ -142,7 +142,7 @@ export default function Home() {
       }
 
       setApiResult(data);
-      setNotice("Analysis completed. The API response is shown below.");
+      setNotice("Analysis completed. The API response is shown below. This is just a MVP Prototype not fully converted into Working Product. ");
     } catch (error) {
       setNotice(
         error instanceof Error
